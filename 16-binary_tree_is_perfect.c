@@ -11,7 +11,5 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	// else return (0);
 	left_leaf = binary_tree_is_perfect(tree->left);
 	right_leaf = binary_tree_is_perfect(tree->right);
-
-
 	return (left_leaf == right_leaf);
 }
