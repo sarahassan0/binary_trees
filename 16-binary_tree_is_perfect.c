@@ -51,7 +51,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	int left_leaf, right_leaf =0;
 
-	if (!tree || ( !tree->parent && (!tree->left && !tree->right)))
+	if (!tree )
 		return (0);
 
 	left_leaf = binary_tree_pre(tree->left);
