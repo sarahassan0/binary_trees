@@ -23,7 +23,6 @@ size_t binary_tree_height_left(const binary_tree_t *tree)
  * @tree: pointer to the root node of the tree
  * Return: height of right side of tree
  */
-
 size_t binary_tree_height_right(const binary_tree_t *tree)
 {
 	size_t right_height;
