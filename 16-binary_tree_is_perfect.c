@@ -7,13 +7,15 @@
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	int left_leaf, right_leaf;
+	int left_leaf = 0, right_leaf = 0;
 
 	if (!tree || (!tree->left && !tree->right))
 		return (0);
-	left_leaf = binary_tree_is_perfect(tree->left);
-	right_leaf = binary_tree_is_perfect(tree->right);
 
+    left_leaf++;
+	right_leaf++;
+	left_leaf= binary_tree_is_perfect(tree->left);
+	right_leaf = binary_tree_is_perfect(tree->right);
 
 	return (left_leaf == right_leaf);
 }
