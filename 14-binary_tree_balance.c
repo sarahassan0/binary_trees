@@ -16,7 +16,6 @@ int find_height(const binary_tree_t *tree)
 
 	return ((leftHeight > rightHeight) ? (leftHeight + 1) : (rightHeight + 1));
 }
-
 /**
  * binary_tree_balance - measures the balance factor of a binary tree
  * @tree: pointer to the root node of the tree to measure the balance factor
