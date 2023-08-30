@@ -4,6 +4,7 @@
  * @tree: pointer to the root node of the tree
  * Return: height of tree
  */
+
 int find_height(const binary_tree_t *tree)
 {
 	int leftHeight, rightHeight;
