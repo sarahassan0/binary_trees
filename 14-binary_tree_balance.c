@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
- * binary_tree_height_left - calc the height of left side of tree
+ * find_height - calc the height of tree
  * @tree: pointer to the root node of the tree
- * Return: height of left side of tree
+ * Return: height of tree
  */
 int find_height(const binary_tree_t *tree)
 {
