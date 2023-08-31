@@ -6,6 +6,7 @@
  * @value:  value to search in the tree
  * Return: pointer to the node containing a value equals to value
  */
+
 bst_t *bst_remove(bst_t *root, int value)
 {
 	bst_t *node, *left_node, *child_node;
